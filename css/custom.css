@@ -1,0 +1,369 @@
+@import url('https://fonts.cdnfonts.com/css/hammersmith-one');
+@import url('https://fonts.cdnfonts.com/css/signika');
+html,
+/* HOME */
+body {
+  height: 100%;
+}
+
+h1{
+  color: white;
+  height: 6vh;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in-down {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fade-in-down.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2{
+  margin-bottom: 50px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+.titl3{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 4vw;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #0D1117;
+}
+.text-center {
+  color: white;
+  font-family: 'Hammersmith One', sans-serif;
+}
+.lead {
+  color: white;
+  
+}
+.bottom{
+  color: white;
+}
+.p{
+  color: black;
+  font-family: 'Signika', sans-serif;
+}
+.about-text{
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+nav.navbar .navbar-nav .nav-link {
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent; /* Add a transparent border-bottom */
+  transition: border-bottom-color 0.3s ease; /* Add transition for smooth effect */
+  font-family: 'Signika', sans-serif;
+}
+
+nav.navbar .navbar-nav .nav-item.active .nav-link {
+  color: #117AFB;
+  border-bottom-color: #1A73E8;; 
+}
+
+nav.navbar .navbar-nav .nav-link:hover {
+  color: #1a63e8;
+  border-bottom-color: #1a63e8;
+}
+
+nav.navbar .navbar-nav .nav-link {
+  transition: border-color 0.3s ease-in-out;
+  
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.55);
+  border-color: white;
+  background-color:  #161B22;
+}
+
+.navbar-toggler:hover {
+  border-color: gray;
+  background-color: black;
+  
+}
+.bi-list {
+  color: white;
+  }
+
+main {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+
+header {
+  background: no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.color-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 60vh;
+}
+
+label.form-label {
+  color: white;
+}
+
+input.form-control,
+textarea.form-control {
+  color: black;
+}
+
+/*--------- PORTFOLIO ---------*/
+
+.card-text{
+  color: white;
+}
+.card-title{
+  color: white;
+  font-family:'Hammersmith One', sans-serif;
+}
+.card{
+  border: 2px solid #30363D;
+  border-radius: 5px;
+}
+.card-body{
+  background-color: #161B22;
+  }
+
+.card-img-top{
+  border-radius: 1px;
+}
+
+.btn-outline-dark{
+  background-color: #1A73E8;
+  color: white;
+}
+.btn-outline-dark:hover{
+  background-color: #1a63e8;
+}
+.singleCol {
+  max-width: 750px;
+}
+
+.walking-gif {
+  width: 76px; 
+  bottom: 0;
+}
+
+/*-------- ABOUT SECTION------ */
+
+.profile-section {
+  margin-top: 40px;
+}
+.about-title {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-section img {
+  border: 2px solid #9AA1A9;
+  max-width: 100%;
+  height: auto;
+  width: 300px; 
+}
+
+.profile-section h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.profile-section p.lead {
+  color: white;
+}
+.profile-section {
+  position: relative;
+}
+
+
+.cover-photo {
+  height: 230px;
+  position: relative;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: 200%;
+  object-fit: cover;
+}
+
+.profile-section img {
+  position: relative;
+  z-index: 1; 
+ 
+}
+
+.profile-section h1, .profile-section p {
+  position: relative;
+  z-index: 1; 
+  color: white; 
+}
+
+
+.about-section {
+  margin-top: 40px;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.about-section p.about-text {
+  color: white;
+}
+.gojo{
+  color: white;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.movies-list {
+  display: grid;
+  gap: 50px;
+}
+
+.card-body h2.gojo {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.card-body p.gojo-text {
+  margin-top: 10px; 
+}
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #161B22; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Thumb color */
+  border-radius: 10px;
+}
+.anime-card {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.anime-card p {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.anime-button {
+  background-color: #F5C611;
+  color: black;
+  border: none;
+  padding: 3px 6px;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+} 
+footer {
+  background-color: #161B22;
+  color: wheat;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #dfdfdf;
+}
+.gif-container {
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767.98px) {
+  .color-overlay {
+    min-height: 30vh;
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+  }
+  .profile-section img {
+    border: 2px solid #9AA1A9;
+    max-width: 100%;
+    height: auto;
+    width: 200px; 
+  }
+  .cover-photo {
+  height: 100px;
+  position: relative;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: 200%;
+  object-fit: cover;
+}
+.walking-gif {
+  width: 50px; /* Adjust the size as needed */
+  bottom: 0;
+}
+
+}

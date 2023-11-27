@@ -1,0 +1,11 @@
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: white;
+    background-color:  #161B22;
+  }
+  
+  .navbar-toggler:hover {
+    border-color: gray;
+    background-color: black;
+    
+  }
