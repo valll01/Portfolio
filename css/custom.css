@@ -55,6 +55,7 @@ body {
 }
 .lead {
   color: white;
+  font-family: 'Hammersmith One', sans-serif;
   
 }
 .bottom{
@@ -345,6 +346,10 @@ form textarea {
     box-sizing: border-box;
 }
   }
+  .lead{
+    font-size: 16px;
+   }
+
   .profile-section img {
     border: 2px solid #9AA1A9;
     max-width: 100%;
